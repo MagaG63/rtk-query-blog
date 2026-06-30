@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "React",
+      "body": "React article"
+    },
+    {
+      "id": 2,
+      "title": "Redux Toolkit",
+      "body": "Redux Toolkit article"
+    },
+    {
+      "id": 3,
+      "title": "RTK Query",
+      "body": "RTK Query article"
+    }
+  ]
+}
