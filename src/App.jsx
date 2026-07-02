@@ -1,29 +1,13 @@
-import { useGetPostsQuery } from "./services/postsApi";
+import PostsList from "./components/PostList";
+import AddPost from "./components/AddPost";
 
 function App() {
-  const { data, isLoading, error } = useGetPostsQuery();
-
-  console.log(data);
-
-  if (isLoading) {
-    return <h1>Loading...</h1>;
-  }
-
-  if (error) {
-    return <h1>Error</h1>;
-  }
-
   return (
-    <div>
-      <h1>Posts</h1>
+    <>
+      <AddPost />
 
-      {data.map((post) => (
-        <div key={post.id}>
-          <h3>{post.title}</h3>
-          <p>{post.body}</p>
-        </div>
-      ))}
-    </div>
+      <PostsList />
+    </>
   );
 }
 

@@ -1,19 +1,35 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "React",
       "body": "React article"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Redux Toolkit",
       "body": "Redux Toolkit article"
     },
     {
-      "id": 3,
-      "title": "RTK Query",
-      "body": "RTK Query article"
+      "title": "фва",
+      "body": "фваафв",
+      "id": "xxZqpsa7w1g"
+    },
+    {
+      "title": "вфаф",
+      "body": "фвафва",
+      "id": "0TagcRSCuZQ"
+    },
+    {
+      "title": "авф",
+      "body": "фваа",
+      "id": "bGcCW8T--Gk"
+    },
+    {
+      "title": "фва",
+      "body": "фвафв",
+      "id": "AhsI6BDOAKA"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
